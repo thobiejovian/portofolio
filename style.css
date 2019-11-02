@@ -1,4 +1,4 @@
-
+/* Nav css */
 .nav-item{
   padding: 0 40px;
   letter-spacing: .5px;
@@ -8,11 +8,86 @@
   color: rgb(0, 0, 0);
 }
 
-
+/* first section css */
 .firstSection {
-  height: 80vh;
+  height: 100vh;
+  background: url("img/wave.svg");
+  background-position: left -50px;
+  background-size: cover;
+
 }
 
 .list-inline-item a{
   color: rgb(0, 0, 0);
 }
+
+.list-inline-item span {
+  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+}
+
+.linkButton a{
+  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+}
+
+/* Second section and first project css */
+
+.firstProject{
+  width: 1000px;
+  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+}
+
+.projectDesc{
+  padding: 60px;
+}
+
+.projectImage img{
+  margin-top: 70px;
+  padding: 40px
+}
+
+.projectImage{
+  background: #36dadb;
+  border-radius: 5px;
+}
+
+/* second project css */
+
+.secondProject{
+  width: 1000px;
+  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+}
+
+.projectImageSecond img{
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.projectImageSecond{
+  background: #36dadb;
+  border-radius: 5px;
+}
+
+
+/* third project css */
+
+.thirdProject{
+  width: 1000px;
+  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+}
+
+.projectImageThird{
+  background: #36dadb;
+  border-radius: 5px;
+}
+
+.projectImageThird img{
+  padding: 40px;
+  margin-top: 30px;
+}
+
+
+/* .firstSection-right img {
+   width: 50%;
+   height: 50%;
+  border-radius: 100%;
+} */
