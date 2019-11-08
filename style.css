@@ -1,3 +1,7 @@
+body{
+
+}
+
 /* Nav css */
 .nav-item{
   padding: 0 40px;
@@ -8,13 +12,60 @@
   color: rgb(0, 0, 0);
 }
 
+/* font css */
+.logoFont{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+}
+
+.firstFont{
+  font-family: 'Roboto Slab', serif;
+}
+
+.projectFont{
+  font-family: 'Anton', sans-serif;
+}
+
+.aboutFont{
+  font-family: 'DM Serif Text', serif;
+}
+
+.projectDescFont{
+
+}
+
 /* first section css */
+.waveSection{
+  background: url("img/wave.svg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -999;
+    }
+
 .firstSection {
   height: 100vh;
-  background: url("img/wave.svg");
-  background-position: left -50px;
-  background-size: cover;
+  /* background: url("img/wave.svg");
+  background-position: bottom;
+  background-size: cover; */
+  z-index: -1;
+}
 
+.firstSection-right{
+  background: url("img/illuslanding.png");
+  background-position: right -65px top -25px;
+  background-size: 550px;
+  height: 100%;
+  background-repeat: no-repeat;
+
+    }
+
+.firstSection-left {
+  /* background: url("img/wave.svg");
+  background-position: bottom;
+  background-size: cover; */
+  max-width: 60%;
+  margin-top: -100px;
 }
 
 .list-inline-item a{
@@ -25,69 +76,106 @@
   box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
 }
 
-.linkButton a{
-  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+
+
+.fab{
+  font-size: 1em;
+}
+
+.fas{
+  font-size: 1em;
+}
+
+.aboutHeader{
+  font-size: 1.4em;
+  line-height: 1em;
+  font-weight: 400;
+}
+
+#typed{
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5em;
+  font-weight: 400;
+ background: -webkit-linear-gradient(#d93a2b, #e49f2b);
+ background: -o-linear-gradient(#d93a2b, #e49f2b);
+ background: linear-gradient(#d93a2b, #e49f2b);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+#projectNav:hover{
+  background: -webkit-linear-gradient(#d93a2b, #e49f2b);
+  background: -o-linear-gradient(#d93a2b, #e49f2b);
+  background: linear-gradient(#d93a2b, #e49f2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all ease-in-out 250ms;
+}
+#leftLink{
+  border-radius: 50%;
+border: 2px solid #333131;
+padding: 7px 12px 10px;
+transition: 0.4s;
+}
+
+#leftLink:hover {
+  background: -webkit-linear-gradient(#d93a2b, #e49f2b);
+  background: -o-linear-gradient(#d93a2b, #e49f2b);
+  background: linear-gradient(#d93a2b, #e49f2b);
+  transition: all ease-in-out 250ms;
+  color: rgb(255, 255, 255);
+}
+
+#ball {
+     width: 40px;
+     height: 40px;
+     background: none;
+     border: 2px solid grey;
+     border-radius: 50%;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin: -10px 0 0 -10px;
+     pointer-events: none;
 }
 
 /* Second section and first project css */
 
-.firstProject{
+.secondSection {
+
+}
+
+.projectHeader{
+  font-size: 2.5em;
+}
+
+
+/* .firstProject{
   width: 1000px;
   box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+} */
+
+
+.video-wrap video {
+  max-height: 55vh;
+  margin-left: -175px !important;
+  margin-top: -10px !important;
+  z-index: -999;
 }
 
-.projectDesc{
-  padding: 60px;
+.video-wrap-1 video {
+  max-height: 55vh;
+  margin-top: -30px !important;
+  z-index: -999;
 }
 
-.projectImage img{
-  margin-top: 70px;
-  padding: 40px
+.video-wrap-3 video {
+  max-height: 55vh;
+  margin-left: -175px !important;
+  margin-top: -10px !important;
+  z-index: -999;
 }
 
-.projectImage{
-  background: #36dadb;
-  border-radius: 5px;
-}
+
 
 /* second project css */
-
-.secondProject{
-  width: 1000px;
-  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
-}
-
-.projectImageSecond img{
-  padding: 40px;
-  margin-top: 50px;
-}
-
-.projectImageSecond{
-  background: #36dadb;
-  border-radius: 5px;
-}
-
-
-/* third project css */
-
-.thirdProject{
-  width: 1000px;
-  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
-}
-
-.projectImageThird{
-  background: #36dadb;
-  border-radius: 5px;
-}
-
-.projectImageThird img{
-  padding: 40px;
-  margin-top: 30px;
-}
-
-
-/* .firstSection-right img {
-   width: 50%;
-   height: 50%;
-  border-radius: 100%;
-} */
