@@ -31,7 +31,7 @@ body{
 }
 
 .projectDescFont{
-
+  font-size: 1.2em;
 }
 
 /* first section css */
@@ -54,7 +54,7 @@ body{
 .firstSection-right{
   background: url("img/illuslanding.png");
   background-position: right -65px top -25px;
-  background-size: 550px;
+  background-size: 520px;
   height: 100%;
   background-repeat: no-repeat;
 
@@ -74,6 +74,10 @@ body{
 
 .list-inline-item span {
   box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+}
+
+.linkButton a{
+    box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
 }
 
 
@@ -96,9 +100,9 @@ body{
   font-family: 'Staatliches', cursive;
   font-size: 1.5em;
   font-weight: 400;
- background: -webkit-linear-gradient(#d93a2b, #e49f2b);
- background: -o-linear-gradient(#d93a2b, #e49f2b);
- background: linear-gradient(#d93a2b, #e49f2b);
+ background: -webkit-linear-gradient(#141E30, #243B55);
+ background: -o-linear-gradient(#141E30, #243B55);
+ background: linear-gradient(#141E30, #243B55);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
 }
@@ -139,14 +143,52 @@ transition: 0.4s;
      pointer-events: none;
 }
 
-/* Second section and first project css */
 
-.secondSection {
+.parallax--bg {
+  background:  linear-gradient(
+          rgba(252, 246, 246, 0.79),
+          rgba(255, 255, 255, 1)
+        ), url(img/thumbnail1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 600px;
+  opacity: 0.8;
+  /*
+  fixed= parallax
+  scroll = normal
+  */
+}
+
+.about-section h3 {
+  font-size: 2.8em;
+  font-weight: 400;
+}
+
+.about-section p {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+/* third section and first project css */
+
+.thirdSection {
 
 }
 
 .projectHeader{
   font-size: 2.5em;
+}
+
+.carousel-control-next i{
+  color: rgb(0, 0, 0);
+}
+
+.carousel-control-prev i{
+  color: rgb(0, 0, 0);
 }
 
 
@@ -157,9 +199,9 @@ transition: 0.4s;
 
 
 .video-wrap video {
-  max-height: 55vh;
-  margin-left: -175px !important;
-  margin-top: -10px !important;
+  max-height: 65vh;
+  /* margin-left: -175px !important; */
+  /* margin-top: -10px !important; */
   z-index: -999;
 }
 
