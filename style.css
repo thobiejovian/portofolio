@@ -1,5 +1,5 @@
 body{
-
+  background-color: #252525;
 }
 
 /* Nav css */
@@ -9,7 +9,7 @@ body{
 }
 
 .nav-item a{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /* font css */
@@ -35,13 +35,13 @@ body{
 }
 
 /* first section css */
-.waveSection{
+/* .waveSection{
   background: url("img/wave.svg");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -999;
-    }
+    } */
 
 .firstSection {
   height: 100vh;
@@ -69,11 +69,11 @@ body{
 }
 
 .list-inline-item a{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .list-inline-item span {
-  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+  box-shadow: 0 50px 100px rgba(255, 255, 255, 0.05), 0 15px 35px rgba(255, 255, 255, 0.1), 0 5px 15px rgba(255, 255, 255, 0.1);
 }
 
 .linkButton a{
@@ -100,17 +100,17 @@ body{
   font-family: 'Staatliches', cursive;
   font-size: 1.5em;
   font-weight: 400;
- background: -webkit-linear-gradient(#141E30, #243B55);
- background: -o-linear-gradient(#141E30, #243B55);
- background: linear-gradient(#141E30, #243B55);
+ background: -webkit-linear-gradient(#d9dce3, #ffffff);
+ background: -o-linear-gradient(#d9dce3, #ffffff);
+ background: linear-gradient(#d9dce3, #ffffff);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
 }
 
 #projectNav:hover{
-  background: -webkit-linear-gradient(#d93a2b, #e49f2b);
-  background: -o-linear-gradient(#d93a2b, #e49f2b);
-  background: linear-gradient(#d93a2b, #e49f2b);
+  background: -webkit-linear-gradient(#30d9de, #52e3c4);
+  background: -o-linear-gradient(#30d9de, #52e3c4);
+  background: linear-gradient(#30d9de, #52e3c4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all ease-in-out 250ms;
@@ -123,9 +123,9 @@ transition: 0.4s;
 }
 
 #leftLink:hover {
-  background: -webkit-linear-gradient(#d93a2b, #e49f2b);
-  background: -o-linear-gradient(#d93a2b, #e49f2b);
-  background: linear-gradient(#d93a2b, #e49f2b);
+  background: -webkit-linear-gradient(#30d9de, #52e3c4);
+  background: -o-linear-gradient(#30d9de, #52e3c4);
+  background: linear-gradient(#30d9de, #52e3c4);
   transition: all ease-in-out 250ms;
   color: rgb(255, 255, 255);
 }
@@ -146,7 +146,7 @@ transition: 0.4s;
 
 .parallax--bg {
   background:  linear-gradient(
-          rgba(252, 246, 246, 0.79),
+          rgba(255, 255, 255, 0.79),
           rgba(255, 255, 255, 1)
         ), url(img/thumbnail1.jpg);
   background-position: center;
@@ -155,8 +155,8 @@ transition: 0.4s;
   background-attachment: fixed;
   margin-left: -15px;
   margin-right: -15px;
-  height: 600px;
-  opacity: 0.8;
+  height: 800px;
+  opacity: 0.9;
   /*
   fixed= parallax
   scroll = normal
@@ -184,11 +184,11 @@ transition: 0.4s;
 }
 
 .carousel-control-next i{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .carousel-control-prev i{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 
